@@ -1,0 +1,27 @@
+{
+  "name": "storms",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "author": "Slobich",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "astro": "^5.1.1",
+    "eslint": "^9.17.0",
+    "eslint-config-xo": "^0.46.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-unicorn": "^56.0.1",
+    "stylelint": "^16.12.0",
+    "stylelint-config-recommended": "^14.0.1"
+  },
+  "dependencies": {
+    "the-new-css-reset": "^1.11.3"
+  }
+}

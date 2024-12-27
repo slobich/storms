@@ -1,0 +1,36 @@
+---
+import 'the-new-css-reset/css/reset.css';
+import "../styles/main.css";
+import { Image } from 'astro:assets';
+import storms from '../images/storms.png';
+---
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Storms</title>
+    <meta name="description" content="Instrumental rock band from Zagreb, Croatia">
+  </head>
+
+  <body>
+    <main>
+      <h1><a href={Astro.site}><span>We</span> <span>are</span> Storms</a></h1>
+
+      <p>Storms are an instrumental rock band from Zagreb, Croatia.</p>
+
+      <ul>
+        <li>
+          <a href="https://storms.bandcamp.com/album/we-are-storms">Bandcamp</a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/wearestorms">Instagram</a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/WeAreStorms">Facebook</a>
+        </li>
+      </ul>
+
+      <Image src={storms} alt="Storms" loading="eager" />
+    </main>
+  </body>
+</html>
